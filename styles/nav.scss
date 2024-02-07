@@ -1,0 +1,70 @@
+.navbar-expand-lg {
+    justify-content: space-between;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+    justify-content: flex-end;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+html{
+height: 100vh;
+}
+
+:root {
+    --color1: rgb(70, 70, 70);
+    --color3: #5336b6;
+    --color2: #5336b6;
+}
+
+
+/************** style commun *******************************/
+.border {
+    margin-top: 20px;
+    border-bottom: 3px solid #5336b6;
+
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+
+#div-langues {
+
+    padding: 30px 0;
+    border-bottom: 2px solid #5336b6;
+
+    h1 {
+        margin: 15px 0;
+    }
+
+    p {
+        text-align: left;
+        line-height: 39px;
+        font-weight: 100;
+        font-size: 18px;
+
+    }
+}
