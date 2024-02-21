@@ -2,43 +2,47 @@
 
     padding: 30px 0;
 
-    h1 {
-        margin-bottom: 50px;
-        border-bottom: 2px solid #5336b6;
-
-    }
-    img{
-        width: 500px;
-        height: 600px;
-        object-fit: cover;
-    }
-
-    .content{
-       
-        padding-left: 100px;
-        p {
-            text-align: left;
-            line-height: 39px;
-            margin: 5px 0;
-            font-size: 18px;
-    
-        }
-    
-        #date{
-            font-weight: 700;
-            color: #5336b6;
-        }
-    
-        #entreprise{
-            font-weight: 700;
-            font-size: 20px;
-        }
-    
-        #nom{
-            font-weight: 700;
-            border-bottom: 2px solid #5336b6;
-    
-        }
-    }
-   
 }
+
+#div-experiences #div-experiences h1 {
+    margin-bottom: 50px;
+    border-bottom: 2px solid #5336b6;
+
+}
+
+#div-experiences img {
+    width: 500px;
+    height: 600px;
+    object-fit: cover;
+}
+
+#div-experiences .content {
+
+    padding-left: 100px;
+
+}
+
+#div-experiences .content p {
+    text-align: left;
+    line-height: 39px;
+    margin: 5px 0;
+    font-size: 18px;
+
+}
+
+#div-experiences .content #date {
+    font-weight: 700;
+    color: #5336b6;
+}
+
+#div-experiences .content #entreprise {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+#div-experiences .content #nom {
+    font-weight: 700;
+    border-bottom: 2px solid #5336b6;
+
+}
+
