@@ -3,9 +3,7 @@
 
 <head>
     <title>Safinaz Yilmaz - Developper Web </title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="styles/nav.css" />
     <link rel="stylesheet" href="styles/projet-web.css" />
 
@@ -33,42 +31,148 @@
     <div>
         <h2 id="title-project">Full-Stack</h2>
         <div class="projets flex-row">
-            <div class="projets-item"><img src="./assets/cuisine.png" />
-                <p>Cuisine - PHP Full-Stack</p>
+
+            <div class="projets-item" id="div-cuisine">
+                <img src="./assets/cuisine.png" />
+                <div class="d-flex flex-row align-items-center justify-content-center">
+                    <p>Cuisine - PHP</p>
+                    
+                    <a href="http://recette-de-cuisine.free.nf/index.php"  class="badge text-bg-warning">Visiter le site</a>
+                    <span class="badge text-bg-info">Responsive</span>
+                    <button onclick="expand('div-cuisine')">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-arrows-angle-expand" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M5.828 10.172a.5.5 0 0 0-.707 0l-4.096 4.096V11.5a.5.5 0 0 0-1 0v3.975a.5.5 0 0 0 .5.5H4.5a.5.5 0 0 0 0-1H1.732l4.096-4.096a.5.5 0 0 0 0-.707m4.344-4.344a.5.5 0 0 0 .707 0l4.096-4.096V4.5a.5.5 0 1 0 1 0V.525a.5.5 0 0 0-.5-.5H11.5a.5.5 0 0 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 0 .707" />
+                        </svg>
+                    </button>
+                </div>
             </div>
-            <div class="projets-item"><img src="./assets/forum-discussion.png" />
-                <p>Forum discussion - .Net Core MVC Full-Stack</p>
+
+            <div class="projets-item" id="div-forum-discussion">
+                <video width="600" height="320" controls poster="./assets/forum-discussion.png">
+                    <source src="./assets/forum-discussion.mp4" type="video/mp4">
+
+                </video>
+                <div class="d-flex flex-row align-items-center justify-content-center">
+                    <p>Forum discussion - .Net Core MVC</p>
+                    <span class="badge text-bg-info">Responsive</span>
+
+                    <button onclick="expand('div-forum-discussion')">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-arrows-angle-expand" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M5.828 10.172a.5.5 0 0 0-.707 0l-4.096 4.096V11.5a.5.5 0 0 0-1 0v3.975a.5.5 0 0 0 .5.5H4.5a.5.5 0 0 0 0-1H1.732l4.096-4.096a.5.5 0 0 0 0-.707m4.344-4.344a.5.5 0 0 0 .707 0l4.096-4.096V4.5a.5.5 0 1 0 1 0V.525a.5.5 0 0 0-.5-.5H11.5a.5.5 0 0 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 0 .707" />
+                        </svg>
+                    </button>
+                </div>
             </div>
-            <div class="projets-item"><img src="./assets/devis.png" />
-                <p>Devis - .Net Core MVC React JS Full-Stack</p>
+
+            <!-- <div class="projets-item"><img src="./assets/devis.png" />
+                <p>Devis - .Net Core MVC React JS </p>
+            </div> -->
+
+            <div class="projets-item" id="div-todolist">
+                <img src="./assets/todolist.png" />
+                <div class="d-flex flex-row align-items-center justify-content-center">
+                    <p>To do list & Pomodoro- .Net Core MVC</p>
+                    <span class="badge text-bg-info">Responsive</span>
+
+                    <button onclick="expand('div-todolist')">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-arrows-angle-expand" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M5.828 10.172a.5.5 0 0 0-.707 0l-4.096 4.096V11.5a.5.5 0 0 0-1 0v3.975a.5.5 0 0 0 .5.5H4.5a.5.5 0 0 0 0-1H1.732l4.096-4.096a.5.5 0 0 0 0-.707m4.344-4.344a.5.5 0 0 0 .707 0l4.096-4.096V4.5a.5.5 0 1 0 1 0V.525a.5.5 0 0 0-.5-.5H11.5a.5.5 0 0 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 0 .707" />
+                        </svg>
+                    </button>
+                </div>
             </div>
-            <div class="projets-item"><img src="./assets/todolist.png" />
-                <p>To-do-list - .Net Core MVC Full-Stack</p>
+
+            <div class="projets-item" id="div-snapface">
+                <!-- <img src="./assets/snapface.png" /> -->
+
+                <video width="600" height="320" controls poster="./assets/snapface.png">
+                    <source src="./assets/FaceSnap.mp4" type="video/mp4">
+                    Snapface - NodeJs & Angular & MongoDB
+                </video>
+                <div class="d-flex flex-row align-items-center justify-content-center">
+                    <p>Snapface (Réseau social) - NodeJs & Angular & MongoDB</p>
+                    <span class="badge text-bg-info">Responsive</span>
+
+                    <button onclick="expand('div-snapface')">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-arrows-angle-expand" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M5.828 10.172a.5.5 0 0 0-.707 0l-4.096 4.096V11.5a.5.5 0 0 0-1 0v3.975a.5.5 0 0 0 .5.5H4.5a.5.5 0 0 0 0-1H1.732l4.096-4.096a.5.5 0 0 0 0-.707m4.344-4.344a.5.5 0 0 0 .707 0l4.096-4.096V4.5a.5.5 0 1 0 1 0V.525a.5.5 0 0 0-.5-.5H11.5a.5.5 0 0 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 0 .707" />
+                        </svg>
+                    </button>
+                </div>
             </div>
+
         </div>
         <br />
         <br />
         <h2 id="title-project"> Front-End</h2>
 
         <div class="projets flex-row">
-            <div class="projets-item"><img src="./assets/ecommerce.png" />
-                <p>Ecommerce – React JS Front-End</p>
+            <div class="projets-item" id="div-ecommerce">
+                <video width="600" height="320" controls poster="./assets/ecommerce.png">
+                    <source src="./assets/ecommerce.mp4" type="video/mp4">
+                </video>
+                <div class="d-flex flex-row align-items-center justify-content-center">
+                    <p>Ecommerce – React JS</p>
+                    <span class="badge text-bg-info">Responsive</span>
+
+                    <button onclick="expand('div-ecommerce')">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-arrows-angle-expand" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M5.828 10.172a.5.5 0 0 0-.707 0l-4.096 4.096V11.5a.5.5 0 0 0-1 0v3.975a.5.5 0 0 0 .5.5H4.5a.5.5 0 0 0 0-1H1.732l4.096-4.096a.5.5 0 0 0 0-.707m4.344-4.344a.5.5 0 0 0 .707 0l4.096-4.096V4.5a.5.5 0 1 0 1 0V.525a.5.5 0 0 0-.5-.5H11.5a.5.5 0 0 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 0 .707" />
+                        </svg>
+                    </button>
+                </div>
             </div>
-            <div class="projets-item"><img src="./assets/blog-phototeque.png" />
-                <p>My-blog – React JS Front-End</p>
+
+            <div class="projets-item" id="div-blog">
+                <img src="./assets/blog-phototeque.png" />
+                <div class="d-flex flex-row align-items-center justify-content-center">
+                    <p>My-blog – React JS</p>
+                    <span class="badge text-bg-info">Responsive</span>
+
+                    <button onclick="expand('div-blog')">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-arrows-angle-expand" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M5.828 10.172a.5.5 0 0 0-.707 0l-4.096 4.096V11.5a.5.5 0 0 0-1 0v3.975a.5.5 0 0 0 .5.5H4.5a.5.5 0 0 0 0-1H1.732l4.096-4.096a.5.5 0 0 0 0-.707m4.344-4.344a.5.5 0 0 0 .707 0l4.096-4.096V4.5a.5.5 0 1 0 1 0V.525a.5.5 0 0 0-.5-.5H11.5a.5.5 0 0 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 0 .707" />
+                        </svg>
+                    </button>
+                </div>
             </div>
-            <div class="projets-item"><img src="./assets/website-template.png" />
-                <p>Website Template – React JS Front-End</p>
+
+            <div class="projets-item" id="div-template-website">
+                <video width="600" height="320" controls poster="./assets/website-template.png">
+                    <source src="./assets/template-website.mp4" type="video/mp4">
+                </video>
+                <div class="d-flex flex-row align-items-center justify-content-center">
+                    <p>Website Template – React JS</p>
+                    <span class="badge text-bg-info">Responsive</span>
+
+                    <button onclick="expand('div-template-website')">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-arrows-angle-expand" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M5.828 10.172a.5.5 0 0 0-.707 0l-4.096 4.096V11.5a.5.5 0 0 0-1 0v3.975a.5.5 0 0 0 .5.5H4.5a.5.5 0 0 0 0-1H1.732l4.096-4.096a.5.5 0 0 0 0-.707m4.344-4.344a.5.5 0 0 0 .707 0l4.096-4.096V4.5a.5.5 0 1 0 1 0V.525a.5.5 0 0 0-.5-.5H11.5a.5.5 0 0 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 0 .707" />
+                        </svg>
+                    </button>
+                </div>
             </div>
-            <div class="projets-item"><img src="./assets/snapface.png" />
-                <p>Snapface - Angular</p>
-            </div>
-            <div class="projets-item"><img src="./assets/weather.png" />
+
+            <!-- <div class="projets-item"><img src="./assets/weather.png" />
                 <p>Weather app</p>
             </div>
             <div class="projets-item"><img src="./assets/image-projets.png" />
                 <p>Calendrier </p>
-            </div>
+            </div> -->
         </div>
     </div>
 
@@ -78,10 +182,20 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
         crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
 
+    <script>
+
+        function expand(id) {
+
+            if (document.getElementById(id).classList.contains("expand")) {
+                document.getElementById(id).classList.remove("expand");
+            } else {
+                document.getElementById(id).classList.add("expand");
+            }
+        }
+
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 
 </html>
