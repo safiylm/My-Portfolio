@@ -79,7 +79,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
-    background-color: #242424;
+    background-image : url("./assets/web.jpg");
     padding: 50px;
     width: 100vw;
     margin: 0 auto;
