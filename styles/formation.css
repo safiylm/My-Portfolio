@@ -1,16 +1,16 @@
 .div-formation {
     padding: 100px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    /* height: calc(100vh - 56px ) !important; */
 }
 
 .div-formation h2 {
     text-align: center;
     padding-bottom: 45px;
 }
+
+.div-formation .flex-row {
+    width: 100%;
+}
+
 
 .div-formation .une-formation {
     margin: 20px 0;
@@ -36,4 +36,17 @@
 
 .div-formation .une-formation #ecole-lieu {
     font-weight: 300;
+}
+
+@media(max-width:700px) {
+    .div-formation {
+        padding: 30px;
+    }
+}
+
+@media(max-width:550px) {
+
+    .div-formation .une-formation {
+        width: 100%;
+    }
 }

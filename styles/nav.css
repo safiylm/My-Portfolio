@@ -24,6 +24,17 @@ html {
     --color2: #5336b6;
 }
 
+@media(max-width:600px) {
+    .navbar {
+        padding:10px !important;
+        height: 70px;
+        }
+
+        .navbar-toggler{
+            padding: 10px !important;
+        }
+}
+
 
 /************** style commun *******************************/
 .border {
@@ -31,23 +42,6 @@ html {
     border-bottom: 3px solid #5336b6;
 
 }
-
-.flex-row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.flex-column {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
-}
-
 
 
 
