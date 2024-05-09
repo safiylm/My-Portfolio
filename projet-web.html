@@ -47,7 +47,7 @@
 
             <div class="projets-item" id="div-cuisine">
                 <img src="./assets/cuisine.png" />
-                <div class="d-flex flex-row flex-wrap align-items-center justify-content-center">
+                <div class="titre-projet d-flex flex-row flex-wrap align-items-center justify-content-center">
                     <p>Cuisine - PHP</p>
                     
                     <a href="http://recette-de-cuisine.free.nf/index.php"  class="badge text-bg-warning">Visiter le site</a>
@@ -67,7 +67,7 @@
                     <source src="./assets/forum-discussion.mp4" type="video/mp4">
 
                 </video>
-                <div class="d-flex flex-row flex-wrap align-items-center justify-content-center">
+                <div class="titre-projet d-flex flex-row flex-wrap align-items-center justify-content-center">
                     <p>Forum discussion - .Net Core MVC</p>
                     <span class="badge text-bg-info">Responsive</span>
 
@@ -86,8 +86,27 @@
             </div> -->
 
             <div class="projets-item" id="div-todolist">
-                <img src="./assets/todolist.png" />
-                <div class="d-flex flex-row flex-wrap align-items-center justify-content-center">
+                <div id="carouselToDolistAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./assets/todolist.png" class="d-block w-100" alt="snapface home">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/pomodoro.png" class="d-block w-100" alt="my account page">
+                      </div>
+                   
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselToDolistAutoplaying" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselToDolistAutoplaying" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                    
+                  </div>
+                <div class="titre-projet d-flex flex-row flex-wrap align-items-center justify-content-center">
                     <p>To do list & Pomodoro- .Net Core MVC</p>
                     <span class="badge text-bg-info">Responsive</span>
 
@@ -104,11 +123,34 @@
             <div class="projets-item" id="div-snapface">
                 <!-- <img src="./assets/snapface.png" /> -->
 
-                <video width="600" height="320" controls poster="./assets/snapface.png">
-                    <source src="./assets/FaceSnap.mp4" type="video/mp4">
-                    Snapface - NodeJs & Angular & MongoDB
-                </video>
-                <div class="d-flex flex-row flex-wrap align-items-center justify-content-center">
+               
+                <div id="carouselSnapfaceAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./assets/snapface/snapface-home.png" class="d-block w-100" alt="snapface home">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/snapface/snapface-my-account.gif" class="d-block w-100" alt="my account page">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assets/snapface/snapface-user-account.png" class="d-block w-100" alt="user account page">
+                      </div>
+
+                      <div class="carousel-item">
+                        <img src="./assets/snapface/snapface-connexion.png" class="d-block w-100" alt="connexion">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselSnapfaceAutoplaying" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselSnapfaceAutoplaying" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                    
+                  </div>
+                <div class="titre-projet d-flex flex-row flex-wrap align-items-center justify-content-center">
                     <p>Snapface (Réseau social) - NodeJs & Angular & MongoDB</p>
                     <span class="badge text-bg-info">Responsive</span>
 
@@ -132,7 +174,7 @@
                 <video width="600" height="320" controls poster="./assets/ecommerce.png">
                     <source src="./assets/ecommerce.mp4" type="video/mp4">
                 </video>
-                <div class="d-flex flex-row flex-wrap align-items-center justify-content-center">
+                <div class="titre-projet d-flex flex-row flex-wrap align-items-center justify-content-center">
                     <p>Ecommerce – React JS</p>
                     <span class="badge text-bg-info">Responsive</span>
                     <a href="https://systeme-authentification.firebaseapp.com"  class="badge text-bg-warning">Visiter le site</a>
@@ -149,7 +191,7 @@
 
             <div class="projets-item" id="div-blog">
                 <img src="./assets/blog-phototeque.png" />
-                <div class="d-flex flex-row flex-wrap align-items-center justify-content-center">
+                <div class="titre-projet d-flex flex-row flex-wrap align-items-center justify-content-center">
                     <p>My-blog – React JS</p>
                     <span class="badge text-bg-info">Responsive</span>
                     <a href="https://blog-sy.web.app/"  class="badge text-bg-warning">Visiter le site</a>
@@ -168,7 +210,7 @@
                 <video width="600" height="320" controls poster="./assets/website-template.png">
                     <source src="./assets/template-website.mp4" type="video/mp4">
                 </video>
-                <div class="d-flex flex-row flex-wrap align-items-center justify-content-center">
+                <div class="titre-projet d-flex flex-row flex-wrap align-items-center justify-content-center">
                     <p>Website Template – React JS</p>
                     <span class="badge text-bg-info">Responsive</span>
                    

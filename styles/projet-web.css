@@ -31,7 +31,8 @@
 
 
 
-.projets .projets-item video {
+.projets .projets-item video, 
+.projets .carousel {
     width: 100%;
     height: 320px;
 
@@ -65,7 +66,9 @@
 }
 
 .expand video,
-.expand img {
+.expand img ,
+.expand .carousel {
+
 
     width: 90vw !important;
     height: auto !important;
@@ -74,17 +77,16 @@
 
 
 
-
-.projets .projets-item div {
+.projets .projets-item .titre-projet {
     height: 100px;
     padding: 15px;
 }
 
-.projets .projets-item div * {
+.projets .projets-item .titre-projet * {
     margin: 0 15px;
 }
 
-.projets .projets-item div button {
+.projets .projets-item .titre-projet button {
     border: none;
     padding: 10px 5px;
     background-color: transparent;
@@ -98,7 +100,7 @@
     }
 
     .projets .projets-item,
-    .projets .projets-item div {
+    .projets .projets-item .titre-projet {
         height: auto;
         width: auto;
     }
