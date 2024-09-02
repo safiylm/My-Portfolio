@@ -1,49 +1,6 @@
-<!DOCTYPE html>
-<html>
 
-<head>
-    <title>Safinaz Yilmaz - Developper Web </title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles/nav.css" />
-    <link rel="stylesheet" href="styles/projet-web.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-
-<body>
-
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="./index.html">Safinaz Yilmaz</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
-                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarText">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-item nav-link" href="./formation.html">Formation</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-item nav-link" href="./competences.html">Compétences</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-item nav-link" href="./experiences.html">Expériences</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-item nav-link" href="./projet-web.html">Projets Web</a>
-                    </li>
-                </ul>
-
-            </div>
-        </div>
-    </nav>
-
-    <div>
-        <h2 id="title-project"> Front-End</h2>
+    <section id="projetsweb">
+        <h2>Mes projets Front-End</h2>
 
         <div class="projets d-flex flex-row flex-wrap align-items-center justify-content-center">
             <div class="projets-item" id="div-ecommerce">
@@ -115,7 +72,7 @@
         <br />
 
 
-        <h2 id="title-project">Full-Stack</h2>
+        <h2>Mes projets Full-Stack</h2>
         <div class="projets d-flex flex-row flex-wrap align-items-center justify-content-center">
 
             <div class="projets-item" id="div-cuisine">
@@ -299,14 +256,7 @@
 
         </div>
 
-    </div>
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
+    </section>
 
     <script>
 
@@ -320,17 +270,3 @@
         }
 
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-
-</body>
-
-</html>

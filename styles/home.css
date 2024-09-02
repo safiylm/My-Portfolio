@@ -1,22 +1,48 @@
 .div0 {
+    padding: 0;
+    margin:0;
+    height: 100vh;
 
-    background-color: #171717;
-    background-color: #f1f1f1;
-    padding: 40px 15px;
-    flex: 100%;
-    height: auto;
+   
 }
 
-.div0 .div-whoIam {
+.div0 .image{
+    width: 50vw;
+    background-image: url("https://www.richardekwonye.com/images/intelia-cover.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    object-fit: cover;
+    top:0;
+    right:0;
+    background-size: 100%;
+   background-repeat: no-repeat;
+}
+
+.div0 .div-ME h1{
+   font-size: 4.5rem;
+   line-height: 120px;
+   text-transform: uppercase;
+   font-family:  /*"Lucida Console",*/ "Courier New", monospace; 
+}
+
+.div0 .div-ME {
+    width: 50vw;
     text-align: center;
 }
 
-.div0 .div-whoIam p {
+.div0 .div-ME p {
     color: var(--color1);
     font-size: 19px;
     margin: 15px 0;
 }
 
+h2, h3 {
+    color: var(--color2);
+    font-weight: 900;
+    margin: 50px ;
+    text-align: center;
+    font-size: xx-large;
+}
 .div0 .div-whoIam h2,
 .div0 .div-whoIam h3 {
     color: var(--color2);
@@ -72,73 +98,45 @@
 
 
 
-.div-about-me {
 
-    /* background-image : url("./assets/web.jpg"); */
-    padding: 10px 50px;
-    width: 100vw;
-    margin: 0 auto;
-    box-sizing: border-box;
+
+.conception-logo img{
+    width:250px;
+    height:250px;
 }
-
-.div-about-me .div-about-me-item {
-    width: 300px;
-    /* height: 400px; */
-    color: #252525;
-    background-color: white;
-    border-radius: 10px;
-    padding: 10px;
-    margin: 5px;
-    font-size: 16px;
-
-}
-
-.div-about-me .div-about-me-item h2 {
-    margin: 15px 0;
+#carouselExampleInterval{
+    width: 250px;
     text-align: center;
-    color: #5336b6;
-    font-weight: 800;
-    font-size: 22px;
-
-}
-
-.div-about-me .div-about-me-item p {
-    margin: 7px auto;
-    font-size: 16px;
-}
-
-.div-about-me .div-about-me-item * {
-    text-align: center;
-    color: #242424;
-    font-size: 16px;
-    margin: 0 auto;
-
-}
-
-
-
-
-
-.liste {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-}
-
-.liste .item {
-
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
     margin: 10px auto;
-    font-size: 16px;
-    color: #242424;
 }
 
-.liste .item svg {
-    color: #987f9c !important;
-    margin: 0 5px;
+
+.loisir img{
+    width: 350px;
+    height: 520px;
+    object-fit:cover;
+}
+
+.loisir .un-loisir{
+    margin: 15px;
+    position: relative;
+}
+
+.loisir .un-loisir p{
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translate( -50%, 0);
     color: white;
+    background-color: #5336b6;
+    background-color:  #605583;
+    padding: 7px 15px ;
+    font-size: larger;
+}
+
+.loisir .un-loisir:hover p{
+    color: #5336b6;
+    background-color:white ;
+    border: 1px solid #5336b6;
+    transition-duration: 1.4s;
 }
