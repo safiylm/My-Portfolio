@@ -36,6 +36,20 @@
     margin: 15px 0;
 }
 
+@media (max-width : 800px ){
+    
+    .div0 {
+        height: auto;
+    }
+    .div0 .image{
+        width: 0;
+    }
+    
+    .div0 .div-ME {
+        width: 100vw;
+    }
+}
+
 h2, h3 {
     color: var(--color2);
     font-weight: 900;

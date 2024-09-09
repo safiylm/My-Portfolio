@@ -27,7 +27,7 @@
             </svg>
             <a href="mailto:zefgrhjt">safinazyilmaz54@gmail.com</a>
         </div>
-        <button class="btn btn-light">Contactez moi</button>
+        <a class="btn btn-dark" href='https://safinazyilmaz.com/contact/'>Contactez moi</a>
   
 
 </div>
@@ -36,6 +36,7 @@
     .footer {
         background-color: #605583;;
         color: white;
+        padding: 20px;
     }
 
     .footer a,
@@ -45,6 +46,6 @@
     }
 
     .footer .item{
-        margin: 50px;
+        margin: 20px 50px;
     }
 </style>
