@@ -100,7 +100,7 @@
                 <div id="carouselArticleQuizzAutoplaying" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="./assets/articlequizz/articlequizz.png" class="d-block w-100" alt="snapface home">
+                            <img src="./assets/articlequizz/home.jpg" class="d-block w-100" alt="snapface home">
                         </div>
                         <div class="carousel-item">
                             <img src="./assets/articlequizz/articlequizz2.png" class="d-block w-100"
@@ -210,20 +210,13 @@
                 <div id="carouselSnapfaceAutoplaying" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="./assets/snapface/snapface-home.png" class="d-block w-100" alt="snapface home">
+                            <img src="./assets/snapface/home.jpg" class="d-block w-100" alt="snapface home">
                         </div>
                         <div class="carousel-item">
-                            <img src="./assets/snapface/snapface-my-account.gif" class="d-block w-100"
-                                alt="my account page">
+                            <img src="./assets/snapface/user-page.jpg" class="d-block w-100"
+                                alt="snapface user page">
                         </div>
-                        <div class="carousel-item">
-                            <img src="./assets/snapface/snapface-user-account.png" class="d-block w-100"
-                                alt="user account page">
-                        </div>
-
-                        <div class="carousel-item">
-                            <img src="./assets/snapface/snapface-connexion.png" class="d-block w-100" alt="connexion">
-                        </div>
+                        
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselSnapfaceAutoplaying"
                         data-bs-slide="prev">
