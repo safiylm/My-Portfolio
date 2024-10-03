@@ -34,7 +34,7 @@
                <div class="titre-projet d-flex flex-row flex-wrap align-items-center justify-content-center">
                    <p>Snapface (Réseau social) - NodeJs & Angular & MongoDB</p>
                    <span class="badge text-bg-info"> Full-Stack </span>
-                   <a href="https://snapfaceangular.web.app/" class="badge text-bg-warning">Visiter le
+                   <a href="https://snapfaceangular.web.app/"  target="_blank" class="badge text-bg-warning">Visiter le
                        site</a>
                    <button onclick="expand('div-snapface')">
                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -53,7 +53,7 @@
                <div class="titre-projet d-flex flex-row flex-wrap align-items-center justify-content-center">
                    <p>Ecommerce – React JS</p>
                    <span class="badge text-bg-info">Front-End</span>
-                   <a href="https://systeme-authentification.firebaseapp.com" class="badge text-bg-warning">Visiter le
+                   <a href="https://systeme-authentification.firebaseapp.com"  target="_blank" class="badge text-bg-warning">Visiter le
                        site</a>
 
                    <button onclick="expand('div-ecommerce')">
@@ -78,7 +78,7 @@
                    <div class="titre-projet d-flex flex-row flex-wrap align-items-center justify-content-center">
                        <p>My-blog – React JS</p>
                        <span class="badge text-bg-info">Front-End</span>
-                       <a href="https://blog-sy.web.app/" class="badge text-bg-warning">Visiter le site</a>
+                       <a href="https://blog-sy.web.app/"  target="_blank" class="badge text-bg-warning">Visiter le site</a>
    
                        <button onclick="expand('div-blog')">
                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -98,7 +98,7 @@
                        <p>Website Template – React JS</p>
                        <span class="badge text-bg-info">Front-End</span>
    
-                       <a href="https://template-website-react.web.app/" class="badge text-bg-warning">Visiter le site</a>
+                       <a href="https://template-website-react.web.app/" target="_blank" class="badge text-bg-warning">Visiter le site</a>
    
                        <button onclick="expand('div-template-website')">
                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -115,7 +115,7 @@
                    <div class="titre-projet d-flex flex-row flex-wrap align-items-center justify-content-center">
                        <p>Cuisine - PHP</p>
    
-                    <!--   <a href="https://recettedecuisinefacile.000webhostapp.com/" class="badge text-bg-warning">Visiter le
+                    <!--   <a href="https://recettedecuisinefacile.000webhostapp.com/"  target="_blank" class="badge text-bg-warning">Visiter le
                            site</a> -->
                        <span class="badge text-bg-info"> Full-Stack</span>
                        <button onclick="expand('div-cuisine')">
@@ -167,7 +167,7 @@
                    <div class="titre-projet d-flex flex-row flex-wrap align-items-center justify-content-center">
                        <p>Article Quizz - PHP Json</p>
                        <span class="badge text-bg-info"> Full-Stack</span>
-                      <!-- <a href="https://learnandquizz.000webhostapp.com/index.php" class="badge text-bg-warning">Visiter le
+                      <!-- <a href="https://learnandquizz.000webhostapp.com/index.php"  target="_blank" class="badge text-bg-warning">Visiter le
                            site</a> --> 
                        <button onclick="expand('div-articlequizz')">
                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
