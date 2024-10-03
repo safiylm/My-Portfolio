@@ -1,7 +1,7 @@
 
 <section id="projetsweb">
        
-
+       <h2>Mes projets web</h2>
        <div class="projets d-flex flex-row flex-wrap align-items-center justify-content-center">
            
            <div class="projets-item" id="div-snapface">
@@ -68,9 +68,11 @@
            
        </div>
          
-       <button class="btn btn-light" onClick="showProjets()" style="display:block; margin:20px auto;">En savoir plus</button>
+       <button class="btn btn-light" id="btnVoirPlus" onClick="showProjets()" style="display:block; margin:20px auto;">Voir plus</button>
           
-       <div class="projets flex-row flex-wrap align-items-center justify-content-center" id="projets_hide" >
+       <div class="projets" id="projets_hide" >
+           <div class="projets d-flex flex-row flex-wrap align-items-center justify-content-center">
+
                <div class="projets-item" id="div-blog">
                    <img src="./assets/blog-phototeque.png" />
                    <div class="titre-projet d-flex flex-row flex-wrap align-items-center justify-content-center">
@@ -113,8 +115,8 @@
                    <div class="titre-projet d-flex flex-row flex-wrap align-items-center justify-content-center">
                        <p>Cuisine - PHP</p>
    
-                       <a href="https://recettedecuisinefacile.000webhostapp.com/" class="badge text-bg-warning">Visiter le
-                           site</a>
+                    <!--   <a href="https://recettedecuisinefacile.000webhostapp.com/" class="badge text-bg-warning">Visiter le
+                           site</a> -->
                        <span class="badge text-bg-info"> Full-Stack</span>
                        <button onclick="expand('div-cuisine')">
                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -165,8 +167,8 @@
                    <div class="titre-projet d-flex flex-row flex-wrap align-items-center justify-content-center">
                        <p>Article Quizz - PHP Json</p>
                        <span class="badge text-bg-info"> Full-Stack</span>
-                       <a href="https://learnandquizz.000webhostapp.com/index.php" class="badge text-bg-warning">Visiter le
-                           site</a>
+                      <!-- <a href="https://learnandquizz.000webhostapp.com/index.php" class="badge text-bg-warning">Visiter le
+                           site</a> --> 
                        <button onclick="expand('div-articlequizz')">
                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                class="bi bi-arrows-angle-expand" viewBox="0 0 16 16">
@@ -233,10 +235,12 @@
                        </button>
                    </div>
                </div>
-                       <button class="btn btn-light"  onClick="hideProjets()" style="display:block; margin:20px auto;">Mois</button>
+               </div>
+               
+           <button class="btn btn-light"  id="btnVoirMoins" onClick="hideProjets()" style="display:block; margin:20px auto;">Voir Mois</button>
 
                
-            </div>
+        </div>
             
 
       
@@ -248,11 +252,14 @@
        document.getElementById('projets_hide').style.display= "none";
 
        function showProjets(){
-           document.getElementById('projets_hide').style.display= "flex";
+           document.getElementById('projets_hide').style.display= "block";
+            document.getElementById('btnVoirPlus').style.display= "none";
        }
        
        function hideProjets(){
            document.getElementById('projets_hide').style.display= "none";
+           document.getElementById('btnVoirPlus').style.display= "block";
+
        }
 
        function expand(id) {
