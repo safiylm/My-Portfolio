@@ -142,8 +142,9 @@ h2, h3 {
     left: 50%;
     transform: translate( -50%, 0);
     color: white;
-    background-color: #5336b6;
     background-color:  #605583;
+    background-color: #5336b6;
+
     padding: 7px 15px ;
     font-size: larger;
 }

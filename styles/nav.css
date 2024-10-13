@@ -7,8 +7,8 @@
     justify-content: flex-end;
 }
 
-nav .container-fluid{
-    background-color: whitesmoke !important;
+.navbar{
+    background-color: white !important;
 }
 
 * {

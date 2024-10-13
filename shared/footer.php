@@ -45,6 +45,10 @@
         text-decoration: none;
     }
 
+    .footer a:hover {   
+       text-decoration : underline;
+    }
+
     .footer .item{
         margin: 20px 50px;
     }

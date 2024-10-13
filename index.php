@@ -12,12 +12,13 @@
     <link rel="stylesheet" href="styles/experiences.css" />
     <link rel="stylesheet" href="styles/competences.css" />
     <link rel="stylesheet" href="styles/projetsweb.css" />
+    <link rel="stylesheet" href="styles/prestation.css" />
 
 </head>
 
 <body>
 
- <?php include('shared/nav.php');?>
+    <?php include('shared/nav.php'); ?>
 
     <div id="content">
 
@@ -32,9 +33,9 @@
             </div> -->
 
             <div class="div-ME d-flex flex-column  align-items-center justify-content-center">
-              
-                <h1>Safinaz <br/> Yilmaz  <br/>
-                Freelance</h1>
+
+                <h1>Safinaz <br /> Yilmaz <br />
+                    Freelance</h1>
 
                 <p>
                     <a href="https://github.com/safiylm">
@@ -49,15 +50,21 @@
 
         </section>
 
-        <?php //include('shared/logo.php');?>
+     
+        <?php
+//include('shared/logo.php');
 
-        <?php include('shared/projetsweb.php');?>
+        include('shared/projetsweb.php');
 
-        <?php include('shared/formation.php');?>
+        include('shared/prestations.php');
 
-        <?php include('shared/loisir.php');?>
+        include('shared/formation.php');
 
-        <?php include('shared/footer.php');?>
+        include('shared/loisir.php');
+
+        include('shared/footer.php'); ?>
+
+    </div>
 
     </div>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -69,15 +76,14 @@
         crossorigin="anonymous"></script>
 
     <script>
-
         var doc = new jsPDF();
         var specialElementHandlers = {
-            '#editor': function (element, renderer) {
+            '#editor': function(element, renderer) {
                 return true;
             }
         };
 
-        $('#cmd').click(function () {
+        $('#cmd').click(function() {
             doc.fromHTML($('#content').html(), 15, 15, {
                 'width': 170,
                 'elementHandlers': specialElementHandlers
@@ -93,7 +99,7 @@
             var elementHTML = document.querySelector(".div-formation");
 
             doc.html(elementHTML, {
-                callback: function (doc) {
+                callback: function(doc) {
                     // Save the PDF
                     doc.save('document-html.pdf');
                 },
