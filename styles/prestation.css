@@ -1,0 +1,45 @@
+.mes-prestations {
+    background-color: #5336b6;
+    width: 100vw;
+    height: auto;
+    padding: 20px;
+}
+
+.mes-prestations h2 {
+    color: white;
+}
+
+.mes-prestations .item {
+    background-color: white;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    height: 120px;
+
+}
+
+@media (max-width : 500px) {
+    .mes-prestations .item {
+        max-width: 95vw;
+        width: 80vw;
+        height: auto;
+
+    }
+}
+
+.mes-prestations .item h3,
+.mes-prestations .item a {
+    margin: 10px;
+    text-align: center;
+    font-size: large;
+}
+
+.mes-prestations .item a {
+    font-size: medium;
+    color: #5336b6;
+
+}
+
+.mes-prestations .item a:hover {
+    text-decoration: underline;
+}
