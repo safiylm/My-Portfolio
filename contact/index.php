@@ -16,7 +16,7 @@
 
 
     <div class="page-contact d-flex flex-wrap justify-content-center align-items-center">
-         <div class="container-contact d-flex flex-wrap justify-content-center align-items-center">
+         <div class="container-contact d-flex justify-content-center align-items-center">
             <section class="information-de-contacts">
             
                 <h2>Informations de contact</h2>
