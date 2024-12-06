@@ -15,7 +15,7 @@
         
         <div class="item d-flex flex-column flex-wrap align-items-center justify-content-center">
             <h3>Conception de logo</h3>
-            <a>En savoir plus</a>
+            <a data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">En savoir plus</a>    
         </div>
         
         <div class="item d-flex flex-column flex-wrap align-items-center justify-content-center">

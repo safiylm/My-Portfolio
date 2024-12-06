@@ -50,10 +50,19 @@
 
         </section>
 
-     
-        <?php
-//include('shared/logo.php');
+        <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Conception de logo</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
 
+                <?php include('shared/logo.php'); ?>
+
+            </div>
+        </div>
+        
+        <?php
         include('shared/projetsweb.php');
 
         include('shared/prestations.php');
