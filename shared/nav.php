@@ -8,7 +8,7 @@
           <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-item nav-link" href="https://safinazyilmaz.com/contact/">Contactez nous </a>
+                        <a class="nav-item nav-link" href="https://safinazyilmaz.com/contact/">Contactez moi </a>
                     </li>
                 </ul>
 

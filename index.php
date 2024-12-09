@@ -18,7 +18,7 @@
 
 <body>
 
-    <?php include('shared/nav.php'); ?>
+ <?php include('shared/nav.php');?>
 
     <div id="content">
 
@@ -33,9 +33,9 @@
             </div> -->
 
             <div class="div-ME d-flex flex-column  align-items-center justify-content-center">
-
-                <h1>Safinaz <br /> Yilmaz <br />
-                    Freelance</h1>
+              
+                <h1>Safinaz <br/> Yilmaz  <br/>
+                Freelance</h1>
 
                 <p>
                     <a href="https://github.com/safiylm">
@@ -50,30 +50,22 @@
 
         </section>
 
-        <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
-            <div class="offcanvas-header">
-                <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Conception de logo</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body">
 
-                <?php include('shared/logo.php'); ?>
+      
+<?php 
+         include('shared/projetsweb.php');
+         
+         echo "<h2>Mes Prestations</h2>";
+         include('shared/logo.php');
+         include('shared/prestation-web.php');
+         //include('shared/marketing-digital.php');
+             
+         
+         include('shared/formation.php');
 
-            </div>
-        </div>
-        
-        <?php
-        include('shared/projetsweb.php');
+         include('shared/loisir.php');
 
-        include('shared/prestations.php');
-
-        include('shared/formation.php');
-
-        include('shared/loisir.php');
-
-        include('shared/footer.php'); ?>
-
-    </div>
+         include('shared/footer.php');?>
 
     </div>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -85,14 +77,15 @@
         crossorigin="anonymous"></script>
 
     <script>
+/*
         var doc = new jsPDF();
         var specialElementHandlers = {
-            '#editor': function(element, renderer) {
+            '#editor': function (element, renderer) {
                 return true;
             }
         };
 
-        $('#cmd').click(function() {
+        $('#cmd').click(function () {
             doc.fromHTML($('#content').html(), 15, 15, {
                 'width': 170,
                 'elementHandlers': specialElementHandlers
@@ -108,7 +101,7 @@
             var elementHTML = document.querySelector(".div-formation");
 
             doc.html(elementHTML, {
-                callback: function(doc) {
+                callback: function (doc) {
                     // Save the PDF
                     doc.save('document-html.pdf');
                 },
@@ -120,6 +113,7 @@
                 windowWidth: 675 //window width in CSS pixels
             });
         }
+        */
     </script>
 
 </body>
