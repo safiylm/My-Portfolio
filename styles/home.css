@@ -109,21 +109,19 @@ h2, h3 {
 }
 
 
-
-
-
-
-
-.conception-logo img{
-    width:250px;
-    height:250px;
-}
 #carouselExampleInterval{
-    width: 250px;
+    width:30vw;
+    height:30vw;
     text-align: center;
     margin: 10px auto;
 }
 
+
+.carousel-item,
+.carousel-item .active{
+    width:40vw !important;
+    max-width: 40vw;
+}
 
 .loisir img{
     width: 350px;

@@ -10,11 +10,12 @@
 }
 
 .mes-prestations .item {
-    background-color: white;
-    margin: 10px;
-    border-radius: 10px;
-    padding: 10px;
-    height: 120px;
+   background-color: white;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  height: 120px;
+  width: 320px;
 
 }
 

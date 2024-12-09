@@ -35,6 +35,8 @@
 <style>
     .footer {
         background-color: #605583;;
+            background-color: #5336b6;
+
         color: white;
         padding: 20px;
     }
@@ -44,10 +46,12 @@
         color: white;
         text-decoration: none;
     }
-
-    .footer a:hover {   
-       text-decoration : underline;
+    
+    .footer a:hover {
+       
+        text-decoration : underline;
     }
+    
 
     .footer .item{
         margin: 20px 50px;
